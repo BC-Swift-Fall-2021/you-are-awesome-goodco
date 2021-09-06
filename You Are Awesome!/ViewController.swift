@@ -23,7 +23,7 @@ class ViewController: UIViewController {
         let messages = ["You Are Awesome!",
                         "You Are Great!",
                         "Fabulous? That's You!",
-                        "When The Genius Bar Needs Help, They Call You"]
+                        "When The Genius Bar Needs Help, They Call You!"]
         messageLabel.text = messages[Int.random(in: 0...messages.count-1)]
         imageView.image = UIImage(named: "image\(Int.random(in: 0...totalNumberOfImages-1))")
     
