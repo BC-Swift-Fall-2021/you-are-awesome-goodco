@@ -11,6 +11,7 @@ import AVFoundation
 class ViewController: UIViewController {
     @IBOutlet weak var messageLabel: UILabel!
     @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var playSoundSwitch: UISwitch!
     
     let totalNumberOfSounds = 5
     let totalNumberOfImages = 9
@@ -61,9 +62,17 @@ class ViewController: UIViewController {
         imageView.image = UIImage(named: "image\(imageNumber)")
         
         soundNumber = nonRepeatingRandom(originalNumber: soundNumber, upperBounds: totalNumberOfSounds)
-        
-        playSound(name: "sound\(soundNumber)")
+        if playSoundSwitch.isOn{
+            playSound(name: "sound\(soundNumber)")
+        }
     }
+    
+    @IBAction func playSoundToggled(_ sender: UISwitch) {
+        if !playSoundSwitch.isOn && audioPlayer != nil{
+            audioPlayer.stop()
+        }
+    }
+    
     
 }
 
