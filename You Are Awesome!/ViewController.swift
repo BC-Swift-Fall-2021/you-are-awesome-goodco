@@ -31,7 +31,7 @@ class ViewController: UIViewController {
                 audioPlayer.play()
             }
             catch {
-                print("ERROR: \(error.localizedDescription) Could not initialize AVAudioPlayer object 😢")
+                print("ERROR: \(error.localizedDescription) Could not initialize AVAudioPlayer object 😥")
             }
         }
         else{

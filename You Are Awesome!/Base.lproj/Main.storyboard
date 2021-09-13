@@ -46,7 +46,7 @@
                                         <rect key="frame" x="8" y="125" width="90" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ieZ-kU-Rbb">
@@ -61,7 +61,7 @@
                                         </connections>
                                     </switch>
                                 </subviews>
-                                <color key="backgroundColor" red="0.86305290459999995" green="0.79058057069999998" blue="0.62620592119999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="Kcx-Ew-jbw" secondAttribute="trailing" constant="8" id="4rN-QP-b80"/>
                                     <constraint firstItem="Kcx-Ew-jbw" firstAttribute="leading" secondItem="YnK-MG-b7R" secondAttribute="leading" constant="8" id="qdt-So-zCa"/>
@@ -69,7 +69,7 @@
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" red="0.86305290459999995" green="0.79058057069999998" blue="0.62620592119999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="YnK-MG-b7R" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="MU3-1s-rjW"/>
                             <constraint firstItem="YnK-MG-b7R" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="ZfJ-vl-4X9"/>
